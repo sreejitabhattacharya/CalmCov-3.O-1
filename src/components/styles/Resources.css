@@ -1,0 +1,23 @@
+
+.resources {
+  padding: 2rem;
+  text-align: center;
+}
+
+.resources h2 {
+  font-size: 2rem;
+}
+
+.resources ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources li {
+  margin: 0.5rem 0;
+}
+
+.resources a {
+  text-decoration: none;
+  color: #007bff;
+}

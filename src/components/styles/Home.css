@@ -1,0 +1,14 @@
+/* src/components/Home.css */
+.home {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home h2 {
+    font-size: 2rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+  }
+  
