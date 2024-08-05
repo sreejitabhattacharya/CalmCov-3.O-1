@@ -1,0 +1,78 @@
+.resources {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial, sans-serif';
+}
+
+.resources h1 {
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.card1 > div:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card1.even {
+  flex-direction: row-reverse;
+}
+
+.card1-image {
+  max-width: 180px; 
+  border-radius: 8px;
+}
+
+.card1-content {
+  flex: 1;
+}
+
+.card1 h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 10px 5px;
+  color: #555;
+
+}
+
+.card p strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.card1 {
+  animation: fadeInUp 0.6s ease-out;
+} 

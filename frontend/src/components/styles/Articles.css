@@ -1,0 +1,32 @@
+/* src/components/Articles.css */
+.articles {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .articles h2 {
+    font-size: 2rem;
+  }
+  
+  .articles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .articles li {
+    margin: 1rem 0;
+  }
+  
+  .articles h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .articles p {
+    margin: 0.5rem 0;
+  }
+  
+  .articles a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  

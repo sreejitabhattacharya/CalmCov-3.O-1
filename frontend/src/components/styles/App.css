@@ -1,0 +1,22 @@
+/* src/components/styles/App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add styles for a main content wrapper */
+.main-content {
+  flex: 1;
+}
