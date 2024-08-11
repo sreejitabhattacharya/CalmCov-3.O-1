@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resources from './components/Resources'; // Import the new component
+import Login from './components/Login';
 import './components/styles/App.css';
 
 const App = () => {
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} /> {/* New route for Resources */}
           <Route path="/contact" element={<Contact />} />
+          <Route path='/login' element={(<Login/>)} />
+        
         </Routes>
       </div>
       <Footer />
